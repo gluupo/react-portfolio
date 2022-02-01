@@ -10,18 +10,6 @@ const Footer = () => (
         <Col xs={12}>
             <Row center="xs" className="justify-content-between">
                 <Col xs={3} lg={3} className="contactInfo text-center">
-                    <div className="contactInfo-box">
-                        <div>
-                            <a href="https://github.com/gluupo" target='_blank' rel="noreferrer">
-                                <FaGithub size={33} />
-                            </a>
-                        </div>
-                        <div>
-                            <p>github</p>
-                        </div>
-                    </div>
-                </Col>
-                <Col xs={3} lg={3} className="contactInfo text-center">
                     <div className="contactInfo-box justify-content-between">
                         <div>
                             <a href={pdf}>
@@ -54,6 +42,18 @@ const Footer = () => (
                         </div>
                         <div>
                             <p>linkedin</p>
+                        </div>
+                    </div>
+                </Col>
+                <Col xs={3} lg={3} className="contactInfo text-center">
+                    <div className="contactInfo-box">
+                        <div>
+                            <a href="https://github.com/gluupo" target='_blank' rel="noreferrer">
+                                <FaGithub size={33} />
+                            </a>
+                        </div>
+                        <div>
+                            <p>github</p>
                         </div>
                     </div>
                 </Col>

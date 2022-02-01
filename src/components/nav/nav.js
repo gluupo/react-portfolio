@@ -21,10 +21,10 @@ const Navigation = ({ currentPage, handlePageChange }) => {
                         <Nav.Link href="#contact"
                             onClick={() => handlePageChange('contact')}
                             className={currentPage === 'contact' ? 'nav-link active me-3' : 'nav-link me-3'}>contact</Nav.Link>
-                        <Nav.Link
+                        {/* <Nav.Link
                             href="./assets/resume.pdf"
                             download
-                        >resume</Nav.Link>
+                        >resume</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
