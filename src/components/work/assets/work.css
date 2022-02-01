@@ -1,0 +1,43 @@
+
+#gamerReviewConnect {
+    background-image:url(./images/gamer.jpg);
+    background-size: cover;
+}
+
+#weatherTunes {
+    background-image:url(./images/weather.jpg);
+    background-size: cover;
+}
+
+#codeQuiz {
+    background-image:url(./images/coding.jpg);
+    background-size: cover;
+}
+
+#dayScheduler {
+    background-image:url(./images/schedule.jpg);
+    background-size: cover;
+}
+
+#teamGenerator {
+    background-image:url(./images/team.jpg);
+    background-size: cover;
+}
+
+#employeeTracker {
+    background-image:url(./images/tracker.jpg);
+    background-size: cover;
+}
+
+#noteTaker {
+    background-image:url(./images/notetaker.jpg);
+    background-size: cover;
+}
+
+.bg-dark {
+    opacity: 90%;
+}
+
+.text-light {
+    opacity: 100%;
+}

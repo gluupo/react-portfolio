@@ -1,34 +1,33 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
+import Navigation from './nav/nav';
+import About from './about/about';
+import Work from './work/work'
+import Contact from './contact/contact';
+import Footer from './footer/footer';
 
+// an if statement that renders each corresponding page
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('about');
 
-    // an if statement that renders each corresponding page
     const renderPage = () => {
-        if (currentPage === 'Home') {
-            return <Home />;
+        if (currentPage === 'work') {
+            return <Work />;
         }
-        if (currentPage === 'About') {
+        if (currentPage === 'about') {
             return <About />;
         }
-        if (currentPage === 'Blog') {
-            return <Blog />;
-        }
+
         return <Contact />;
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className="min-vh-100 d-flex flex-column">
             {/* // passing currentPage and handlePageChange as props */}
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
     );
 }
