@@ -36,7 +36,7 @@ const Footer = () => (
                 <Col xs={3} lg={3} className="contactInfo text-center">
                     <div className="contactInfo-box justify-content-between">
                         <div>
-                            <a href="https://www.linkedin.com/in/ariannabanks/" target='_blank' rel="noreferrer">
+                            <a href="https://www.linkedin.com/in/ariannabanks/" target='_blank' rel="noreferrer" className="text-muted">
                                 <FaLinkedin size={33} />
                             </a>
                         </div>

@@ -14,7 +14,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
                             onClick={() => handlePageChange('about')}
                             className={currentPage === 'about' ? 'nav-link active me-3' : 'nav-link me-3'}
                         >about</Nav.Link>
-                        <Nav.Link href="#projects"
+                        <Nav.Link href="#work"
                             onClick={() => handlePageChange('work')}
                             className={currentPage === 'work' ? 'nav-link active me-3' : 'nav-link me-3'}
                         >work</Nav.Link>
