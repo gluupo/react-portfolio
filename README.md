@@ -4,7 +4,6 @@
 - [objective](#objective)
 - [description](#description)
 - [visuals](#visuals)
-- [usage](#usage)
   
 ## objective
 ```
@@ -41,9 +40,12 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 ## visuals
+[![Image from Gyazo](https://i.gyazo.com/9642cf0b6fa29caca50f2538f22a2413.gif)](https://gyazo.com/9642cf0b6fa29caca50f2538f22a2413)<br><br>
+mobile view<br>
+[![Image from Gyazo](https://i.gyazo.com/3ded31fe8d096d515d481c2737b1e8c0.png)](https://gyazo.com/3ded31fe8d096d515d481c2737b1e8c0)<br>
+desktop view<br>
+[![Image from Gyazo](https://i.gyazo.com/55a71e2f2d80583e5ae1b79e6dc4ea8b.png)](https://gyazo.com/55a71e2f2d80583e5ae1b79e6dc4ea8b)
 
-
-## usage
 
 
   
