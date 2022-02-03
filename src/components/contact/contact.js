@@ -45,7 +45,7 @@ const Contact = () => {
 
     return (
         <div className="row justify-content-center align-items-center text-center col-11 col-lg-6 m-auto">
-            <form className="form container col-12 col-lg-9 bg-dark m-2 p-5 rounded-3">
+            <form className="form container col-12 col-lg-9 bg-dark m-2 p-4 p-sm-5 rounded-3">
                 <div>
                     <h4
                         className="text-light text-start">name :</h4>
@@ -111,7 +111,6 @@ const Contact = () => {
                     </div>
                 )}
             </form>
-
         </div>
     );
 };

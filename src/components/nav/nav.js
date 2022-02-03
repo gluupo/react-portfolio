@@ -1,6 +1,6 @@
 
 import React from "react";
-import './assets/styles/header.css'
+import './assets/styles/banner.css'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const Navigation = ({ currentPage, handlePageChange }) => {

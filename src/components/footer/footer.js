@@ -6,7 +6,7 @@ import './assets/styles/footer.css'
 import { FaPortrait, FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 
 const Footer = () => (
-    <Container className="footer">
+    <Container className="footer sm-mt-1">
         <Col xs={12}>
             <Row center="xs" className="justify-content-between">
                 <Col xs={3} lg={3} className="contactInfo text-center">
