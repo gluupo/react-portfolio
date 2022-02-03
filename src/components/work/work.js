@@ -22,7 +22,7 @@ export default function Work() {
                             <p className="lead mb-0"><a href="https://gluupo.github.io/code-quiz/" className="btn btn-transparent border-dark lead mb-0 mt-1 text-dark fw-bold">deployed link</a></p>
                         </div>
                     </div>
-                </div>
+                </div> 
                 <div className="col-lg-4 col-sm-6 p-1">
                     <div className="row g-0 overflow-hidden flex-md-row shadow-sm h-md-250 position-relative rounded-3 h-100" id="weatherTunes">
                         <div className="col p-4 d-flex flex-column position-static">
