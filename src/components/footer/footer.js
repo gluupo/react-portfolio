@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import pdf from './assets/creative-organized-professional.pdf';
-import './assets/styles/footer.css'
+import pdf from '../../assets/creative-organized-professional.pdf';
+import './assets/styles/footer.css';
 
 import { FaPortrait, FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 
