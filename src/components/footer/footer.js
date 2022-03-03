@@ -12,7 +12,7 @@ const Footer = () => (
                 <Col xs={3} lg={3} className="contactInfo text-center">
                     <div className="contactInfo-box justify-content-between">
                         <div>
-                            <a href={pdf} download="creative-organized-professional">
+                            <a href="https://github.com/gluupo/react-portfolio/raw/main/src/assets/creative-organized-professional.pdf">
                                 <FaPortrait size={33} />
                             </a>
                         </div>
