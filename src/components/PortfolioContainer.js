@@ -7,7 +7,7 @@ import Footer from './footer/footer';
 
 // an if statement that renders each corresponding page
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('about');
+    const [currentPage, setCurrentPage] = useState('work');
 
     const renderPage = () => {
         if (currentPage === 'work') {
