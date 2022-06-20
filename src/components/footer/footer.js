@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import pdf from '../../assets/creative-organized-professional.pdf';
+import pdf from '../../assets/Creative_Organized_Professional.pdf';
 import './assets/styles/footer.css';
 
 import { FaPortrait, FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
@@ -12,7 +12,7 @@ const Footer = () => (
                 <Col xs={3} lg={3} className="contactInfo text-center">
                     <div className="contactInfo-box justify-content-between">
                         <div>
-                            <a href="https://github.com/gluupo/react-portfolio/raw/main/src/assets/creative-organized-professional.pdf">
+                            <a href={pdf}>
                                 <FaPortrait size={33} />
                             </a>
                         </div>
